@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="todolist.js"></script>
+    <link rel="stylesheet" href="todolist.css">
+
+    <title>To Do List</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h2>Add Items</h2>
+
+        <label id="text-success" class="text-success" style="display: none;">
+        </label>
+
+        <form id="addForm">
+            <div class="row">
+                <div class="col-1">
+
+                    <input type="text" onkeyup="toggleButton(this, 'submit')" class="form-control" id="item" placeholder ="Enter your text" >
+                </div>
+
+                <div class="col-2">
+                    <input type="submit" class="btn btn-dark" id="submit" value="Submit" disabled>
+                </div>
+            </div>
+        </form>
+
+        <h3 class="col-3">Details</h3>
+
+        <form id="addForm">
+            <ul class="list-group" id="items"></ul>
+        </form>
+    </div>
+</body>
+
+</html>

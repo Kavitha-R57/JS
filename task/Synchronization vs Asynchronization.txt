@@ -1,0 +1,22 @@
+Synchronization:
+var x = 10;
+var y = 20;
+console.log(x);
+console.log(y);
+
+OUTPUT:
+10
+20
+
+
+
+
+Asynchronization:
+var x = 10;
+var y = 20;
+console.log(x);
+setTimeout(){
+console.log(timeout);
+var z=30;
+},5;
+console.log(y);

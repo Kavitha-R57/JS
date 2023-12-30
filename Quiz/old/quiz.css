@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(106, 36, 79, 0.404);
+    font-size: 20px;
+    font-weight: bolder ;
+    margin-left: 30px;
+}
+#button{
+    background-color: rgb(226, 74, 228);
+    font-size: 25px;
+    font-weight: bolder ;
+    margin-left: 30px;
+    padding: 5px;
+}

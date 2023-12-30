@@ -1,0 +1,54 @@
+let carsArray=[{name:"BMW"},{name:"Volvo"},{name:"honda"}]
+let bikeArray=[{name:"Yamaha"},{name:"Hero Splendor"},{name:"honda"}]
+let carObj = {};
+carsArray.forEach((car) => {
+  carObj[car.name]=car
+});
+
+console.log(carObj)
+
+
+
+
+
+
+var result = [];
+function vehicle(bike,car){
+var x = result.filter((i) =>{
+return (i.bike===bike) && (i.car===car)
+});
+if(x.length>0){
+console.log('Already Exist')
+}else {
+console.log('Added Successfully')
+result.push({
+bike:bike,
+car:car})
+}
+}
+
+
+
+
+
+
+
+
+
+var result = [];
+function vehicle(twoWheeler,fourWheeler){
+var x = result.filter((i) =>{
+return (i.2wheeler===2wheeler) && (i.2wheeler===2wheeler)
+});
+if(x.length>0){
+console.log('Already Exist')
+}else {
+console.log('Added Successfully')
+result.push({
+twoWheeler:twoWheeler,
+fourWheeler:fourWheeler})
+}
+}
+ 
+
+

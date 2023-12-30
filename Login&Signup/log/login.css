@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+ .wrapper{
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #883408;
+    font-weight: 500;  
+    margin-left: 400px;   
+}
+.btnLonin-popup:hover{
+    background: #0c0806;
+    color: rgb(141, 65, 216);
+}
+
+.remember-forgot{
+    font-size: 19px;
+    color: rgb(224, 34, 34);
+    font-weight: 500;
+    /* margin: -15px 15px; */
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot label input{
+    accent-color:rgb(34, 224, 34); ;
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: #162938;
+    text-decoration: none;
+    }
+.remember-forgot a :hover{
+    text-decoration: dotted;
+}
+.btn{
+    width: 50%;
+    height: 35px;;
+    background: #af7355;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: larger;
+}   
+
+.input-box{
+    width: 100%;
+    height: 100%;
+    background: transpar ent;
+    border: none;
+    outline: none;
+}
+.input-box .icon{
+    position: absolute;
+    right: 2px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 6px;
+}
+.login-register{
+    font-size: 20px;
+}
